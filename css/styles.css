@@ -24,6 +24,8 @@
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
+}
+.container .nav{
     height: 72px;
 }
 .nav{
@@ -73,6 +75,8 @@
 .contacts{
     font-style: normal;
 }
+        /* main styles */
+
 body{
     font-family: 'Roboto', sans-serif;
     color: var(--slate);
@@ -121,9 +125,10 @@ p{
 .list{
     list-style: none;
 }
-
+        /* section styles */
 .hero{
     background-color: var(--navyblue);
+    padding: 188px 472px;
 }
 .mhead{
     font-size: 56px;
@@ -131,8 +136,14 @@ p{
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--white);
+    max-width: 496px;
 }
 .btnservice{
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
     background-color: var(--iris);
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -141,6 +152,8 @@ p{
     letter-spacing: 0.04em;
     color: var(--white);
     cursor: pointer;
+    margin-left: 164px;
+    margin-top: 48px;
 }
 .btnservice:hover,
 .btnservice:focus{
