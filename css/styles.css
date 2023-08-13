@@ -216,20 +216,50 @@ p{
 
 .team{
     background-color: var(--cloud);
+    padding-bottom: 120px;
 }
-.li-team{
+.team-header2{
+    margin-bottom: 72px;
+    padding-top: 120px;
+}
+.team-list{
+    display: flex;
+    gap: 24px;
+}
+.team-li{
     background-color: var(--white);
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+
 }
+.team-member{
+    padding: 32px 0;;
+}
+.team-header3{
+    text-align: center;
+    margin-bottom: 8px;
+}
+.team-text{
+    text-align: center;
+}
+
+
 .footer{
     background-color: var(--navyblue);
+    padding: 120px 0;
 }
-.studio-f{
+.footer-logo{
+    display: inline-block;
+    margin-bottom: 16px;
+}
+.footer-studio{
     color: var(--cloud);
 }
 .footer-text{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--cloud);
+    max-width: 264px;
 }
 .btn-portfolio{
     font-family: "Roboto", sans-serif;
