@@ -75,6 +75,7 @@
 .contacts{
     font-style: normal;
 }
+
         /* main styles */
 
 body{
@@ -261,6 +262,7 @@ p{
     max-width: 264px;
 }
 
+        /* Portfolio */
 
 .btn-portfolio{
     font-family: "Roboto", sans-serif;
@@ -271,9 +273,39 @@ p{
     color: var(--iris);
     background-color: var(--cloud);
     cursor: pointer;
+    padding: 12px 24px;
+    border: 1px solid var(--cornflower);
+    border-radius: 4px;
 }
 .btn-portfolio:hover,
 .btn-portfolio:focus{
     color: var(--white);
     background-color: var(--ocean);
+}
+.portfolio-section{
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+.portfolio-ul-btn{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-bottom: 72px;
+}
+.portfolio-ul-cards{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+.portfolio-li-cards{
+    width: calc((100%-48px)/3);
+}
+.portfolio-apps{
+    padding: 32px 16px;
+    border: 1px solid var(--cornflower);
+    border-top: none;
+}
+.portfolio-apps-header{
+    margin-bottom: 8px;
 }
