@@ -281,6 +281,7 @@ p{
 .btn-portfolio:focus{
     color: var(--white);
     background-color: var(--ocean);
+    border: 1px solid transparent;
 }
 .portfolio-section{
     padding-top: 96px;
